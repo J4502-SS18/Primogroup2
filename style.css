@@ -152,11 +152,14 @@ font-size: 40px;
   margin-left: 0px;
 }
 
-.contact {
-  padding-top: 25px;
-  text-align: left;
-  font-weight: 700;
+#contact {
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  padding: 25px;
   font-style: italic;
+  justify-content: space-between;
+  background-color: #ABAAAA;
 }
 
 @media (min-width:500px) {
