@@ -154,11 +154,9 @@ font-size: 40px;
 
 #contact {
   list-style: none;
-  display: flex;
-  flex-flow: row;
-  padding: 25px;
+  display: block;
+  padding: 10px;
   font-style: italic;
-  justify-content: space-between;
   background-color: #ABAAAA;
 }
 
@@ -170,6 +168,12 @@ font-size: 40px;
 
       #nav a {
         border: none;}
+
+      #contact {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+      }
 
 
       /* article {
