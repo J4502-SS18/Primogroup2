@@ -1,3 +1,8 @@
+.topnav {
+  overflow: hidden;
+}
+
+
 
 h1 {
   text-align: center;
@@ -167,11 +172,6 @@ font-size: 40px;
       justify-content: space-around;}
 
 <<<<<<< HEAD
-      #contact {
-        display: flex;
-        flex-flow: row;
-        justify-content: space-between;
-      }
 
 =======
   #nav a {
@@ -205,6 +205,11 @@ font-size: 40px;
       margin-right: 10px;
       grid-area: d;}
 
+      #contact {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+      }
 
 @media (min-width:1000px) {
 
