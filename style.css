@@ -154,11 +154,9 @@ font-size: 40px;
 
 #contact {
   list-style: none;
-  display: flex;
-  flex-flow: row;
-  padding: 25px;
+  display: block;
+  padding: 10px;
   font-style: italic;
-  justify-content: space-between;
   background-color: #ABAAAA;
 }
 
@@ -168,8 +166,17 @@ font-size: 40px;
       flex-flow: row wrap;
       justify-content: space-around;}
 
+<<<<<<< HEAD
+      #contact {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+      }
+
+=======
   #nav a {
       border: none;}
+>>>>>>> fc5b4091f248dbd8e7894e8b0595b10d6cc5c226
 
 /* our work media stuff  */
   #work-container {
