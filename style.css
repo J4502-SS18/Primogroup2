@@ -1,7 +1,3 @@
-.topnav {
-  overflow: hidden;
-}
-
 
 
 h1 {
@@ -178,18 +174,15 @@ font-size: 40px;
       border: none;}
 >>>>>>> fc5b4091f248dbd8e7894e8b0595b10d6cc5c226
 
-/* our work media stuff  */
-  #work-container {
+  #rainbow-container {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
           grid-gap: 20px;
           grid-template-areas:
             "a a a"
-            ". b ."
+            "b b b"
             "c c c"
-            "d e f"
-            "h i j"
-            "g k .";}
+            "d d d";}
 
   .intro {
       grid-area: a; }
@@ -203,47 +196,16 @@ font-size: 40px;
       width: 100%;
       grid-area: c; }
 
-  .photo1 {
+  .rainbow {
       width: 100%;
+      margin-right: 10px;
       grid-area: d;}
 
-<<<<<<< HEAD
       #contact {
         display: flex;
         flex-flow: row;
         justify-content: space-between;
       }
-=======
-  .photo2 {
-      width: 100%;
-      grid-area: e;}
-
-  .photo3 {
-      width: 100%;
-      grid-area: f;}
-
-  .photo4 {
-      width: 100%;
-      grid-area: g;}
-
-  .caption1 {
-      width: 95%
-      grid-area: h;}
-
-  .caption2 {
-      width: 95%
-      grid-area: i;}
-
-  .caption3 {
-      width: 95%
-      grid-area: j;}
-
-  .caption4 {
-      width: 95%
-      grid-area: k;}
-
-
->>>>>>> 2cf3e3537a047fc772cc246dcc89697dff453df7
 
 @media (min-width:1000px) {
 
@@ -254,59 +216,53 @@ font-size: 40px;
   #nav2 a {
         border: none;}
 
-/* our work media stuff  */
-  #work-container {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-gap: 20px;
-      grid-template-areas:
-              "a a a"
-              ". b ."
-              "c c c"
-              "d e f"
-              "h i j"
-              "g k .";}
+  #rainbow-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+      "a a a"
+      "b b b"
+      "c c c"
+      "d d d";}
+
 
   .intro {
-      grid-area: a; }
+    grid-area: a; }
 
   .video1 {
-      width: 100%;
-      align-content: center;
-      grid-area: b;}
+    width: 100%;
+    align-content: center;
+    grid-area: b;}
 
   .below {
-      width: 100%;
-      grid-area: c; }
+    width: 100%;
+    grid-area: c; }
 
-  .photo1 {
-      width: 100%;
-      grid-area: d;}
+  .rainbow {
+    width: 100%;
+    margin-right: 10px;
+    grid-area: d;}
 
-  .photo2 {
-      width: 100%;
-      grid-area: e;}
+  /* .image {
+        width: 100%;
+        margin-right: 10px;
+        grid-area: a;}
 
-  .photo3 {
-      width: 100%;
-      grid-area: f;}
+  .image2 {
 
-  .photo4 {
-      width: 100%;
-      grid-area: g;}
+        width: 70%;
+        margin-right: 10px;
+        grid-area: b;}
 
-  .caption1 {
-      width: 95%
-      grid-area: h;}
+  /* .image3 {
+        width: 60%;
+        margin-right: 10px;
+        grid-area: b;} */
 
-  .caption2 {
-      width: 95%
-      grid-area: i;}
+  /* .story {
+        width: 70%;
+        grid-area: c;}
 
-  .caption3 {
-      width: 95%
-      grid-area: j;}
-
-  .caption4 {
-      width: 95%
-      grid-area: k;}
+  .first {
+        margin-top: 0;} */
