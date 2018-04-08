@@ -168,11 +168,11 @@ font-size: 40px;
         grid-template-areas:
           "a c c"
           "b c c";} */
-
+/*
       footer {
           order: 4;}
 
-
+ */
 
       /* .image {
           width: 100%;
@@ -192,17 +192,16 @@ font-size: 40px;
 
 @media (min-width:1000px) {
 
-  .navigation {
+  #nav2 {
         flex-flow: row wrap;
         justify-content: space-around;}
 
-  .navigation a {
+  #nav a {
         border: none;}
 
-  .navigation {
-  width: 95%;}
 
-  article {
+
+  /* article {
     display: grid;
     grid-template-columns: 400px 1fr 1fr;
     grid-gap: 20px;
@@ -212,9 +211,9 @@ font-size: 40px;
 
   footer {
         order: 4;}
+ */
 
-
-  .image {
+  /* .image {
         width: 100%;
         margin-right: 10px;
         grid-area: a;}
@@ -230,9 +229,9 @@ font-size: 40px;
         margin-right: 10px;
         grid-area: b;} */
 
-  .story {
+  /* .story {
         width: 70%;
         grid-area: c;}
 
   .first {
-        margin-top: 0;}
+        margin-top: 0;} */
