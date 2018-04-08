@@ -1,3 +1,8 @@
+.topnav {
+  overflow: hidden;
+}
+
+
 
 h1 {
   text-align: center;
@@ -167,11 +172,6 @@ font-size: 40px;
       justify-content: space-around;}
 
 <<<<<<< HEAD
-      #contact {
-        display: flex;
-        flex-flow: row;
-        justify-content: space-between;
-      }
 
 =======
   #nav a {
@@ -207,6 +207,13 @@ font-size: 40px;
       width: 100%;
       grid-area: d;}
 
+<<<<<<< HEAD
+      #contact {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+      }
+=======
   .photo2 {
       width: 100%;
       grid-area: e;}
@@ -236,6 +243,7 @@ font-size: 40px;
       grid-area: k;}
 
 
+>>>>>>> 2cf3e3537a047fc772cc246dcc89697dff453df7
 
 @media (min-width:1000px) {
 
