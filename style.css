@@ -162,47 +162,48 @@ font-size: 40px;
 
 @media (min-width:500px) {
 
-      #nav {
-        flex-flow: row wrap;
-                justify-content: space-around;}
+  #nav {
+      flex-flow: row wrap;
+      justify-content: space-around;}
 
-      #nav a {
-        border: none;}
-
+<<<<<<< HEAD
       #contact {
         display: flex;
         flex-flow: row;
         justify-content: space-between;
       }
 
+=======
+  #nav a {
+      border: none;}
+>>>>>>> fc5b4091f248dbd8e7894e8b0595b10d6cc5c226
 
-      /* article {
-        display: grid;
-        grid-template-columns: 2fr 1fr 1fr;
-        grid-gap: 20px;
-        grid-template-areas:
-          "a c c"
-          "b c c";} */
-/*
-      footer {
-          order: 4;}
+  #rainbow-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+          grid-gap: 20px;
+          grid-template-areas:
+            "a a a"
+            "b b b"
+            "c c c"
+            "d d d";}
 
- */
+  .intro {
+      grid-area: a; }
 
-      /* .image {
-          width: 100%;
-          margin-right: 10px;
-          grid-area: a;}
+  .video1 {
+      width: 100%;
+      align-content: center;
+      grid-area: b;}
 
-      .image2 {
-          width: 100%;
-          margin-right: 10px;
-          grid-area: b;} */
+  .below {
+      width: 100%;
+      grid-area: c; }
 
-                /* .image3 {
-                      width: 60%;
-                      margin-right: 10px;
-                      grid-area: b;} */
+  .rainbow {
+      width: 100%;
+      margin-right: 10px;
+      grid-area: d;}
 
 
 @media (min-width:1000px) {
@@ -211,22 +212,36 @@ font-size: 40px;
         flex-flow: row wrap;
         justify-content: space-around;}
 
-  #nav a {
+  #nav2 a {
         border: none;}
 
-
-
-  /* article {
+  #rainbow-container {
     display: grid;
-    grid-template-columns: 400px 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
     grid-template-areas:
-      "a c c"
-      "a b b";}
+      "a a a"
+      "b b b"
+      "c c c"
+      "d d d";}
 
-  footer {
-        order: 4;}
- */
+
+  .intro {
+    grid-area: a; }
+
+  .video1 {
+    width: 100%;
+    align-content: center;
+    grid-area: b;}
+
+  .below {
+    width: 100%;
+    grid-area: c; }
+
+  .rainbow {
+    width: 100%;
+    margin-right: 10px;
+    grid-area: d;}
 
   /* .image {
         width: 100%;
