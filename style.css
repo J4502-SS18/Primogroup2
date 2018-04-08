@@ -171,15 +171,18 @@ font-size: 40px;
   #nav a {
       border: none;}
 
-  #rainbow-container {
+/* our work media stuff  */
+  #work-container {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
           grid-gap: 20px;
           grid-template-areas:
             "a a a"
-            "b b b"
+            ". b ."
             "c c c"
-            "d d d";}
+            "d e f"
+            "h i j"
+            "g k .";}
 
   .intro {
       grid-area: a; }
@@ -193,10 +196,38 @@ font-size: 40px;
       width: 100%;
       grid-area: c; }
 
-  .rainbow {
+  .photo1 {
       width: 100%;
-      margin-right: 10px;
       grid-area: d;}
+
+  .photo2 {
+      width: 100%;
+      grid-area: e;}
+
+  .photo3 {
+      width: 100%;
+      grid-area: f;}
+
+  .photo4 {
+      width: 100%;
+      grid-area: g;}
+
+  .caption1 {
+      width: 95%
+      grid-area: h;}
+
+  .caption2 {
+      width: 95%
+      grid-area: i;}
+
+  .caption3 {
+      width: 95%
+      grid-area: j;}
+
+  .caption4 {
+      width: 95%
+      grid-area: k;}
+
 
 
 @media (min-width:1000px) {
@@ -208,53 +239,59 @@ font-size: 40px;
   #nav2 a {
         border: none;}
 
-  #rainbow-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    grid-template-areas:
-      "a a a"
-      "b b b"
-      "c c c"
-      "d d d";}
-
+/* our work media stuff  */
+  #work-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 20px;
+      grid-template-areas:
+              "a a a"
+              ". b ."
+              "c c c"
+              "d e f"
+              "h i j"
+              "g k .";}
 
   .intro {
-    grid-area: a; }
+      grid-area: a; }
 
   .video1 {
-    width: 100%;
-    align-content: center;
-    grid-area: b;}
+      width: 100%;
+      align-content: center;
+      grid-area: b;}
 
   .below {
-    width: 100%;
-    grid-area: c; }
+      width: 100%;
+      grid-area: c; }
 
-  .rainbow {
-    width: 100%;
-    margin-right: 10px;
-    grid-area: d;}
+  .photo1 {
+      width: 100%;
+      grid-area: d;}
 
-  /* .image {
-        width: 100%;
-        margin-right: 10px;
-        grid-area: a;}
+  .photo2 {
+      width: 100%;
+      grid-area: e;}
 
-  .image2 {
+  .photo3 {
+      width: 100%;
+      grid-area: f;}
 
-        width: 70%;
-        margin-right: 10px;
-        grid-area: b;}
+  .photo4 {
+      width: 100%;
+      grid-area: g;}
 
-  /* .image3 {
-        width: 60%;
-        margin-right: 10px;
-        grid-area: b;} */
+  .caption1 {
+      width: 95%
+      grid-area: h;}
 
-  /* .story {
-        width: 70%;
-        grid-area: c;}
+  .caption2 {
+      width: 95%
+      grid-area: i;}
 
-  .first {
-        margin-top: 0;} */
+  .caption3 {
+      width: 95%
+      grid-area: j;}
+
+  .caption4 {
+      width: 95%
+      grid-area: k;}
