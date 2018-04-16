@@ -170,7 +170,7 @@ font-size: 40px;
   #nav a {
       border: none;}
 
-  #rainbow-container {
+  #work-container {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
           grid-gap: 20px;
@@ -212,7 +212,7 @@ font-size: 40px;
   #nav2 a {
         border: none;}
 
-  #rainbow-container {
+  #work-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
