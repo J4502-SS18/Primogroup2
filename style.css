@@ -167,12 +167,8 @@ font-size: 40px;
       flex-flow: row wrap;
       justify-content: space-around;}
 
-<<<<<<< HEAD
-
-=======
   #nav a {
       border: none;}
->>>>>>> fc5b4091f248dbd8e7894e8b0595b10d6cc5c226
 
   #rainbow-container {
       display: grid;
@@ -224,7 +220,7 @@ font-size: 40px;
       "a a a"
       "b b b"
       "c c c"
-      "d d d";} 
+      "d d d";}
 
 
   .intro {
