@@ -161,11 +161,26 @@ font-size: 40px;
   background-color: #ABAAAA;
 }
 
+
+.menu-trigger {
+  order:1;
+  font-size: 2em;
+  width: 4em;
+  color: black;
+  margin-top: 40px;
+}
+
+#nav {
+  display: none;
+}
+
 @media (min-width:500px) {
 
   #nav {
       flex-flow: row wrap;
-      justify-content: space-around;}
+      justify-content: space-around;
+      display: flex;
+    }
 
   #nav a {
       border: none;}
@@ -202,6 +217,10 @@ font-size: 40px;
         flex-flow: row;
         justify-content: space-between;
       }
+
+.menu-trigger {
+  display: none;
+}
 
 @media (min-width:1000px) {
 
