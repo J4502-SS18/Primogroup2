@@ -210,7 +210,7 @@ font-size: 40px;
             "b b b"
             "c c c"
             "d d d";}
-}
+
   .intro {
       grid-area: a; }
 
@@ -248,12 +248,11 @@ font-size: 40px;
         grid-area: b; }
     .services {
         grid-area: c; }
-      }
 
 .menu-trigger {
   display: none;
 }
-
+}
 @media (min-width:1000px) {
 
   #nav2 {
