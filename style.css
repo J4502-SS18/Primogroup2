@@ -160,10 +160,8 @@ font-size: 40px;
   font-style: italic;
   background-color: #ABAAAA;
 }
-
-
 .menu-trigger {
-  order:1;
+  order: 1;
   font-size: 2em;
   width: 4em;
   color: black;
@@ -194,7 +192,7 @@ font-size: 40px;
             "b b b"
             "c c c"
             "d d d";}
-
+}
   .intro {
       grid-area: a; }
 
