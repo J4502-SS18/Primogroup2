@@ -257,6 +257,10 @@ font-size: 40px;
 
 @media (min-width:1000px) {
 
+  .menu-trigger {
+    display: none;
+  }
+
   #nav2 {
         flex-flow: row wrap;
         justify-content: space-around;}
