@@ -179,11 +179,12 @@ font-size: 40px;
   background-color: #ABAAAA;
 }
 .menu-trigger {
+display: block;
   order: 1;
   font-size: 2em;
-  width: 4em;
   color: black;
   margin-top: 40px;
+  background-color: #f1c61a;
 }
 
 #nav {
