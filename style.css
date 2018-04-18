@@ -51,6 +51,9 @@ footer {
 font-size: 40px;
 }
 
+.bold2 {font-weight: 700;
+}
+
 #container {
   width: 95%;
   margin: 0 auto;
@@ -116,7 +119,7 @@ font-size: 40px;
   position: relative;
   padding-bottom: 56.25%;
   /* padding-top: 25px; */
-  /* height: 25%; */
+  height: 0;
 }
 
 .video iframe {
@@ -124,7 +127,22 @@ font-size: 40px;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 75%;
+	height: 100%;
+}
+
+.video1 {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* padding-top: 25px; */
+  height: 0;
+}
+
+.video1 iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .howto {
