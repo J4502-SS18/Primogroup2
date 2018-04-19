@@ -242,9 +242,9 @@ font-size: 40px;
                   "a a a"
                   "b c c";}
 
-    .video {
+    .test_video {
         grid-area: a;
-        height: 50px;}
+      }
 
     .bold {
         grid-area: b; }
@@ -273,16 +273,15 @@ font-size: 40px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
     grid-template-areas:
-      "a a a"
-      "b b b"
+      "a b b"
       "c c c"
-      "d d d";}
+      "d e f";}
 
 
   .intro {
     grid-area: a; }
 
-  .video1 {
+  .test_76 {
     width: 100%;
     align-content: center;
     grid-area: b;}
@@ -295,5 +294,4 @@ font-size: 40px;
     width: 100%;
     margin-right: 10px;
     grid-area: d;}
-
   }
