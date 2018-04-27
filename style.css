@@ -172,7 +172,8 @@ font-size: 40px;
   display: flex;
   margin: auto;
   border: none;
-  width: 50%;
+  width: 100%;
+  margin-bottom: -60px;
 }
 
 .caption {
@@ -201,6 +202,14 @@ font-size: 40px;
 
 
 @media (min-width:500px) {
+
+  .logo1 {
+    display: flex;
+    margin: auto;
+    border: none;
+    width: 70%;
+    margin-bottom: -35px;
+  }
 
   #nav {
       flex-flow: row wrap;
@@ -271,6 +280,13 @@ font-size: 40px;
 }
 
 @media (min-width:1000px) {
+
+  .logo1 {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    margin-bottom: -15px;
+  }
 
   .menu-trigger {
     display: none;
