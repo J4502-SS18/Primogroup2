@@ -172,7 +172,7 @@ font-size: 40px;
   display: flex;
   margin: auto;
   border: none;
-  width: 100%;
+  width: 50%;
 }
 
 .caption {
@@ -199,24 +199,9 @@ font-size: 40px;
   display: none;
 }
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-.mySlides {
-    display: none;
-}
+
 
 @media (min-width:500px) {
-
-  .logo1 {
-    display: flex;
-    margin: auto;
-    border: none;
-    width: 70%;
-  }
 
   #nav {
       flex-flow: row wrap;
@@ -287,12 +272,6 @@ font-size: 40px;
 }
 
 @media (min-width:1000px) {
-
-  .logo1 {
-    display: flex;
-    margin: auto;
-    width: 50%;
-  }
 
   .menu-trigger {
     display: none;
