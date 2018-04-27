@@ -7,6 +7,7 @@ h1 {
   font-size: 50px;
  }
 
+
  h2 {
    text-align: center;
    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -167,6 +168,13 @@ font-size: 40px;
   margin-left: 0px;
 }
 
+.logo1 {
+  display: flex;
+  margin: auto;
+  border: none;
+  width: 50%;
+}
+
 .caption {
   margin-left: 0px;
 }
@@ -191,6 +199,7 @@ font-size: 40px;
   display: none;
 }
 
+
 @media (min-width:500px) {
 
   #nav {
@@ -201,6 +210,11 @@ font-size: 40px;
 
   #nav a {
       border: none;}
+
+
+.search {
+  display: none;
+}
 
   #work-container {
       display: grid;
@@ -229,10 +243,11 @@ font-size: 40px;
       margin-right: 10px;
       grid-area: d;}
 
-      #contact {
-        display: flex;
-        flex-flow: row;
-        justify-content: space-between;}
+  #contact {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-between;
+    }
 
     #home-container {
         display: grid;
@@ -260,6 +275,14 @@ font-size: 40px;
   .menu-trigger {
     display: none;
   }
+
+.search1 {
+    display: none;
+}
+
+.search {
+  display: flex;
+}
 
   #nav2 {
         flex-flow: row wrap;
