@@ -19,7 +19,7 @@ h1 {
    text-align: center;
    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
    font-weight: 550;
-   font-size: 20px;
+   font-size: 35px;
    border-bottom: solid;
    padding-bottom: 10px;
  }
@@ -28,9 +28,10 @@ h1 {
    text-align: center;
    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
    font-weight: 550;
-   font-size: 20px;
+   font-size: 35px;
    background-color: grey;
    padding: 10px;
+   text-decoration: underline;
    margin-bottom: -20px;
  }
 
@@ -54,6 +55,11 @@ font-size: 40px;
 
 .bold2 {font-weight: 700;
 }
+
+.menu-trigger {
+  padding-bottom: 10px;
+  }
+
 
 #container {
   width: 95%;
@@ -175,6 +181,13 @@ font-size: 40px;
   width: 70%;
 }
 
+.logo2 {
+  display: flex;
+  margin: auto;
+  border: none;
+  width: 70%;
+}
+
 .caption {
   margin-left: 0px;
 }
@@ -189,8 +202,8 @@ font-size: 40px;
 .menu-trigger {
   display: block;
   order: 1;
-  font-size: 2em;
-  color: black;
+  font-size: 2.5em;
+  color: #f1c61a;
   margin-top: 10px;
   border-bottom: none;
 }
@@ -199,9 +212,11 @@ font-size: 40px;
   display: none;
 }
 
+.search {
+  display: none;
+}
 
-
-@media (min-width:500px) {
+@media (min-width:650px) {
 
   /* #home-container {
       display: grid;
@@ -228,12 +243,21 @@ font-size: 40px;
   #nav a {
       border: none;}
 
-.logo1 {
-  width: 50%;
+  .logo1 {
+        width: 30%;
+        margin-left: 2px;
+      }
+
+  .logo2 {
+   width: 50%;
+      }
+
+.search1 {
+  display: none;
 }
 
 .search {
-  display: none;
+  display: block;
 }
 
   #work-container {
@@ -297,7 +321,12 @@ font-size: 40px;
   }
 
 .logo1 {
-  width: 50%;
+  width: 20%;
+  margin-left: 2px;
+}
+
+.logo2 {
+  width: 40%;
 }
 
 .search1 {
@@ -315,7 +344,7 @@ font-size: 40px;
   #nav2 a {
         border: none;}
 
-  #work-container {
+  /* #work-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
@@ -341,4 +370,144 @@ font-size: 40px;
     width: 100%;
     margin-right: 10px;
     grid-area: d;}
-  }
+  } */
+
+  #grid4work {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 20px;
+    grid-template-areas:
+      "a b b"
+      "a c d"
+      "a e e";}
+
+      .trigger {
+        grid-area: a;
+        background-color: gray;
+      }
+
+      .intro {
+        grid-area: b;
+      }
+
+      .part1 {
+        margin-top: -48px;
+        margin-bottom: -20px;
+        grid-area: c;
+        font-size: 20px;
+      }
+
+      .part2 {
+        grid-area: d;
+        font-size: 20px;
+      }
+
+      .test_76 {
+        grid-area: d;
+      }
+
+      .slideshow-container {
+        grid-area: e;
+      }
+    }
+
+
+
+
+/* style for slideshow */
+
+
+
+    * {box-sizing:border-box}
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+        display: none;
+    }
+
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
