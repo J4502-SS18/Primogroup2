@@ -19,7 +19,7 @@ h1 {
    text-align: center;
    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
    font-weight: 550;
-   font-size: 35px;
+   font-size: 30px;
    border-bottom: solid;
    padding-bottom: 10px;
  }
@@ -55,11 +55,6 @@ font-size: 40px;
 
 .bold2 {font-weight: 700;
 }
-
-.menu-trigger {
-  padding-bottom: 10px;
-  }
-
 
 #container {
   width: 95%;
@@ -140,6 +135,7 @@ font-size: 40px;
 .video1 {
   position: relative;
   padding-bottom: 56.25%;
+  margin-bottom: 30px;
   /* padding-top: 25px; */
   height: 0;
 }
@@ -204,8 +200,9 @@ font-size: 40px;
   order: 1;
   font-size: 2.5em;
   color: #f1c61a;
-  margin-top: 10px;
+  margin-top: 5px;
   border-bottom: none;
+  padding-bottom: 8px;
 }
 
 #nav {
@@ -233,6 +230,10 @@ font-size: 40px;
     #container {
       grid-area: b;
     } */
+
+    .menu-trigger {
+      display: none;
+    }
 
   #nav {
       flex-flow: row wrap;
@@ -262,7 +263,7 @@ font-size: 40px;
 
   #work-container {
       display: grid;
-      grid-template-columns: 1fr 2fr 2fr;
+      grid-template-columns: 1fr 1fr 1fr;
           grid-gap: 20px;
           grid-template-areas:
             "a a a"
@@ -286,6 +287,7 @@ font-size: 40px;
       width: 100%;
       margin-right: 10px;
       grid-area: d;}
+}
 
   #contact {
       display: flex;
@@ -294,14 +296,10 @@ font-size: 40px;
     }
 
 
-.menu-trigger {
-  display: none;}
-
-}
 
 @media (min-width:1000px) {
 
-  #home-container {
+  #home-container2 {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
           grid-gap: 20px;
@@ -315,10 +313,6 @@ font-size: 40px;
     #container {
       grid-area: b; }
 
-
-  .menu-trigger {
-    display: none;
-  }
 
 .logo1 {
   width: 20%;
@@ -344,33 +338,6 @@ font-size: 40px;
   #nav2 a {
         border: none;}
 
-  /* #work-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    grid-template-areas:
-      "a b b"
-      "c c c"
-      "d e f";}
-
-
-  .intro {
-    grid-area: a; }
-
-  .test_76 {
-    width: 100%;
-    align-content: center;
-    grid-area: b;}
-
-  .below {
-    width: 100%;
-    grid-area: c; }
-
-  .rainbow {
-    width: 100%;
-    margin-right: 10px;
-    grid-area: d;}
-  } */
 
   #grid4work {
     display: grid;
@@ -379,7 +346,10 @@ font-size: 40px;
     grid-template-areas:
       "a b b"
       "a c d"
-      "a e e";}
+      ". . ."
+      ". . ."
+      "e f g"
+      "h i j";}
 
       .trigger {
         grid-area: a;
@@ -406,108 +376,17 @@ font-size: 40px;
         grid-area: d;
       }
 
-      .slideshow-container {
+      .photo1 {
         grid-area: e;
       }
-    }
+      .photo2 {
+        grid-area: f;
+      }
+      .photo3 {
+        grid-area: g;
+      }
+      .photo4 {
+        grid-area: h;
+      }
 
-
-
-
-/* style for slideshow */
-
-
-
-    * {box-sizing:border-box}
-
-    /* Slideshow container */
-    .slideshow-container {
-      max-width: 1000px;
-      position: relative;
-      margin: auto;
-    }
-
-    /* Hide the images by default */
-    .mySlides {
-        display: none;
-    }
-
-    /* Next & previous buttons */
-    .prev, .next {
-      cursor: pointer;
-      position: absolute;
-      top: 50%;
-      width: auto;
-      margin-top: -22px;
-      padding: 16px;
-      color: white;
-      font-weight: bold;
-      font-size: 18px;
-      transition: 0.6s ease;
-      border-radius: 0 3px 3px 0;
-    }
-
-    /* Position the "next button" to the right */
-    .next {
-      right: 0;
-      border-radius: 3px 0 0 3px;
-    }
-
-    /* On hover, add a black background color with a little bit see-through */
-    .prev:hover, .next:hover {
-      background-color: rgba(0,0,0,0.8);
-    }
-
-    /* Caption text */
-    .text {
-      color: #f2f2f2;
-      font-size: 15px;
-      padding: 8px 12px;
-      position: absolute;
-      bottom: 8px;
-      width: 100%;
-      text-align: center;
-    }
-
-    /* Number text (1/3 etc) */
-    .numbertext {
-      color: #f2f2f2;
-      font-size: 12px;
-      padding: 8px 12px;
-      position: absolute;
-      top: 0;
-    }
-
-    /* The dots/bullets/indicators */
-    .dot {
-      cursor: pointer;
-      height: 15px;
-      width: 15px;
-      margin: 0 2px;
-      background-color: #bbb;
-      border-radius: 50%;
-      display: inline-block;
-      transition: background-color 0.6s ease;
-    }
-
-    .active, .dot:hover {
-      background-color: #717171;
-    }
-
-    /* Fading animation */
-    .fade {
-      -webkit-animation-name: fade;
-      -webkit-animation-duration: 1.5s;
-      animation-name: fade;
-      animation-duration: 1.5s;
-    }
-
-    @-webkit-keyframes fade {
-      from {opacity: .4}
-      to {opacity: 1}
-    }
-
-    @keyframes fade {
-      from {opacity: .4}
-      to {opacity: 1}
     }
