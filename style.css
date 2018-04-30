@@ -353,7 +353,7 @@ font-size: 40px;
 
       .trigger {
         grid-area: a;
-        background-color: gray;
+        background-color: #FFF7A2;
       }
 
       .intro {
