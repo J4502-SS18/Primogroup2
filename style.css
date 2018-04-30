@@ -262,7 +262,7 @@ font-size: 40px;
   display: block;
 }
 
-  /* #work-container {
+  #work-container {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
           grid-gap: 20px;
