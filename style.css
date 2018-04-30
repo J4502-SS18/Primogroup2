@@ -57,7 +57,7 @@ font-size: 40px;
 }
 
 #container {
-  width: 95%;
+  max-width: 80%;
   margin: 0 auto;
 }
 
@@ -349,7 +349,8 @@ font-size: 40px;
       ". . ."
       ". . ."
       "e f g"
-      "h i j";}
+      "h i j"; 
+    }
 
       .trigger {
         grid-area: a;
