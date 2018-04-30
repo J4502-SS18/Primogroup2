@@ -122,6 +122,7 @@ font-size: 40px;
   padding-bottom: 56.25%;
   /* padding-top: 25px; */
   height: 0;
+  margin-top: 35px;
 }
 
 .video iframe {
@@ -349,7 +350,7 @@ font-size: 40px;
       ". . ."
       ". . ."
       "e f g"
-      "h i j"; 
+      "h i j";
     }
 
       .trigger {
