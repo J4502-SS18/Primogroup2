@@ -29,7 +29,7 @@ h1 {
    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
    font-weight: 550;
    font-size: 35px;
-   background-color: grey;
+   background-color: #FFF7A2;
    padding: 10px;
    text-decoration: underline;
    margin-bottom: -20px;
@@ -260,6 +260,7 @@ font-size: 40px;
 
 .search {
   display: block;
+  margin-top: 10%;
 }
 
   #work-container {
