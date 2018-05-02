@@ -274,6 +274,77 @@ font-size: 40px;
   display: none;
 }
 
+
+#photogrid {
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      grid-gap: 20px;
+      margin-top: -10px;
+      grid-template-areas:
+        "a b c d"
+        "e f . .";
+      }
+
+      .photo1 {
+        grid-area: a;
+      }
+
+      .photo2 {
+        grid-area: b;
+      }
+
+      .photo3 {
+        grid-area: c;
+      }
+
+      .photo4 {
+        grid-area: d;
+      }
+
+      .photo5 {
+        grid-area: e;
+      }
+
+      .photo6 {
+        grid-area: f;
+      }
+
+
+      #photogrid {
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            grid-gap: 20px;
+            margin-top: -10px;
+            grid-template-areas:
+              "a b"
+              "c d"
+              "e f";
+            }
+
+            .photo1 {
+              grid-area: a;
+            }
+
+            .photo2 {
+              grid-area: b;
+            }
+
+            .photo3 {
+              grid-area: c;
+            }
+
+            .photo4 {
+              grid-area: d;
+            }
+
+            .photo5 {
+              grid-area: e;
+            }
+
+            .photo6 {
+              grid-area: f;
+            }
+
 }
 
 
@@ -358,7 +429,6 @@ font-size: 40px;
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
     grid-gap: 20px;
-    margin-bottom: 30px;
     grid-template-areas:
       "a b b"
       "a c d";
@@ -391,11 +461,11 @@ font-size: 40px;
 
   #photogrid {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
         grid-gap: 20px;
         grid-template-areas:
-          "a b c"
-          "d e f";
+          "a b c d"
+          "e f . .";
         }
 
         .photo1 {
@@ -421,6 +491,8 @@ font-size: 40px;
         .photo6 {
           grid-area: f;
         }
+
+
 
     #photogrid2 {
       display: grid;
