@@ -391,11 +391,7 @@ font-size: 40px;
 
   #photogrid {
         display: grid;
-<<<<<<< HEAD
         grid-template-columns: 1fr 1fr 1fr;
-=======
-        grid-template-columns: 1fr 1fr 1fr 1fr;
->>>>>>> f9b5077bbb026003cf05169c4cb196de6fa4ba4c
         grid-gap: 20px;
         grid-template-areas:
           "a b c"
