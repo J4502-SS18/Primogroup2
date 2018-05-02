@@ -217,7 +217,7 @@ font-size: 40px;
 }
 
 
-/* ***BEGIN MEDIA QUERYS*** */
+/* ***BEGIN MEDIA QUERIES*** */
 
 
 
@@ -350,7 +350,8 @@ font-size: 40px;
               grid-gap: 20px;
               grid-template-areas:
                 "a b"
-                "c d";
+                "c d"
+                "e .";
               }
 
               .photo1 {
@@ -367,6 +368,9 @@ font-size: 40px;
 
               .photo4 {
                 grid-area: d;
+              }
+              .photo5 {
+                grid-area: e;
               }
 
 }
@@ -521,10 +525,11 @@ font-size: 40px;
 
     #photogrid2 {
       display: grid;
-      grid-template-columns: 2fr 2fr 2fr 2fr;
+      grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 20px;
       grid-template-areas:
-        "a b c d";
+        "a b c"
+        "d e .";
       }
 
       .photo1 {
@@ -541,5 +546,9 @@ font-size: 40px;
 
       .photo4 {
         grid-area: d;
+      }
+
+      .photo5 {
+        grid-area: e;
       }
 }
