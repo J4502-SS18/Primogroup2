@@ -32,7 +32,7 @@ h1 {
    background-color: #bdbdbd;
    padding: 10px;
    margin-bottom: -20px;
-   border-bottom: 2px; 
+   border-bottom: 2px;
  }
 
 body {
@@ -222,7 +222,10 @@ font-size: 40px;
 }
 
 .caption {
+  margin-top: 1px;
   margin-left: 0px;
+  font-size: 15px;
+  font-style: italic;
 }
 
 .navsearch {
@@ -243,7 +246,13 @@ font-size: 40px;
   display: none;
 }
 
+.part1 {
+  font-size: 15px;
+}
 
+.part2 {
+  font-size: 15px;
+}
 /* ***BEGIN MEDIA QUERIES*** */
 
 
@@ -554,12 +563,13 @@ font-size: 40px;
         margin-top: -48px;
         margin-bottom: -20px;
         grid-area: c;
-        font-size: 20px;
+        font-size: 16px;
       }
 
       .part2 {
+
         grid-area: d;
-        font-size: 20px;
+        font-size: 16px;
       }
 
       .test_76 {
