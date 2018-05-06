@@ -186,7 +186,7 @@ font-size: 40px;
 
 .howto {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .howtoreg {
@@ -196,11 +196,14 @@ font-size: 40px;
 
 #howto {
   margin-bottom: 30px;
+  border-bottom: solid;
+  border-color: black;
+  padding-bottom: 30px;
 }
 
 .meet {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 80px;
   text-align: right;
   padding-top: 5px;
@@ -233,16 +236,11 @@ font-size: 40px;
 }
 
 #container {
-  max-width: 95%;
-  margin: 0 auto;
+  max-width: 75%;
+  margin: auto;
 }
 
 #logo4life {
-  display: none;
-}
-
-
-.join1 {
   display: none;
 }
 
@@ -253,6 +251,8 @@ font-size: 40px;
 .part2 {
   font-size: 15px;
 }
+
+
 /* ***BEGIN MEDIA QUERIES*** */
 
 
@@ -296,11 +296,6 @@ font-size: 40px;
 
 
 #logo4life {
-  display: none;
-}
-
-
-.join1 {
   display: none;
 }
 
@@ -426,7 +421,23 @@ font-size: 40px;
                   margin-top: 30px;
                 }
 
+      #join {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 20px;
+          grid-template-areas:
+                  "a b";}
 
+      .team {
+          grid-area: a;
+          width: 90%;
+          margin-bottom: 20px;
+                  }
+
+      .description2 {
+          grid-area: b;
+          margin-top: 0px;
+                    }
 }
 
 
@@ -498,9 +509,6 @@ font-size: 40px;
       grid-area: c;
       margin-top: -10px;
     }
-
-
-
 
   #work-container {
       display: grid;
@@ -655,4 +663,22 @@ font-size: 40px;
       .photo5 {
         grid-area: e;
       }
+
+      #join {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 20px;
+        grid-template-areas:
+        "a b";}
+
+        .team {
+          grid-area: a;
+          width: 90%;
+          margin-bottom: 20px;
+        }
+
+        .description2 {
+          grid-area: b;
+          margin-top: 0px;
+          }
 }
