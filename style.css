@@ -259,9 +259,9 @@ margin-top: -20px;
 }
 
 #services {
-    border: solid;
     padding: 20px;
-    font-size: 12px;}
+    font-size: 12px;
+    background-color: #bdbdbd;}
 
 
 
@@ -455,7 +455,6 @@ margin-top: -20px;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-gap: 20px;
-      border: solid;
       padding: 20px;
       grid-template-areas:
       "a b c d";}
@@ -727,7 +726,6 @@ margin-top: -20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
-    border: solid;
     padding: 20px;
     grid-template-areas:
     "a b c d";}
